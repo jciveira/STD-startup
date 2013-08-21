@@ -10,13 +10,20 @@ var prime = function(n) {
 
 
 
-// Find first k Prime numbers via basic for loop
+// Find first k Prime numbers via basic for loop, k > 4
 var firstkprime = function(k) {
     var i = 1;
-    var arr = [];
-    for(i = 1; i < k+1; i++) {
-        arr.push(fibonacci(i));
+    var j = 5;
+    var cienprimes = [];
+    cienprimes.push("2","3","5","7"); 
+    for (j = 5; j < k; i++) 
+    {
+     var n = cienprimes[j - 1];
+     if (sqrt(j) )
     }
+};
+    
+    
     return arr;
 };
 

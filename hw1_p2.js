@@ -10,8 +10,8 @@ var prime = function(n) {
 
 
 
-// Find first 100 Prime numbers via basic for loop
-var firstprime = function(k) {
+// Find first k Prime numbers via basic for loop
+var firstkprime = function(k) {
     var i = 1;
     var arr = [];
     for(i = 1; i < k+1; i++) {
@@ -24,3 +24,7 @@ var firstprime = function(k) {
 var fmt = function(arr) {
     return arr.join(" ");
 };
+
+var k = 20;
+console.log("firstkfib(" + k + ")");
+console.log(fmt(firstkfib(k)));

@@ -33,5 +33,5 @@ var fmt = function(arr) {
 };
 
 var k = 20;
-console.log("firstkfib(" + k + ")");
-console.log(fmt(firstkfib(k)));
+console.log("firstkprime(" + k + ")");
+console.log(fmt(firstkprime(k)));

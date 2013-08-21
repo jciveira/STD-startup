@@ -18,8 +18,8 @@ var firstkprime = function(k) {
     cienprimes.push("2","3","5","7"); 
     for (j = 5; j < k; i++) 
     {
-     var n = cienprimes[j - 1];
-     if (sqrt(j) )
+     var n = cienprimes[j - 1] + 2;
+     if (sqrt(n)  floor(sqrt(n)))
     }
 };
     
